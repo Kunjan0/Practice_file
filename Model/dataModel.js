@@ -6,7 +6,8 @@ const dataSchema = mongoose.Schema({
     title: String,
     description: String,
     price: Number,
-    category: String
+    category: String,
+     image: String
 })
 
 export const mainData = mongoose.model('datas', dataSchema);
